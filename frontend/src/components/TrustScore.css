@@ -1,0 +1,107 @@
+.pillar-header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 32px;
+}
+
+.pillar-number {
+  width: 40px; height: 40px;
+  background: linear-gradient(135deg, var(--blue-600), var(--blue-700));
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  font-size: 18px;
+  flex-shrink: 0;
+}
+
+.pillar-title {
+  font-size: 24px;
+  font-weight: 800;
+  color: var(--text-primary);
+}
+
+.pillar-desc {
+  font-size: 14px;
+  color: var(--text-tertiary);
+  margin-top: 2px;
+}
+
+.score-center {
+  text-align: center;
+  padding: 32px 0;
+}
+
+.score-circle {
+  width: 160px; height: 160px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 24px;
+  border: 6px solid;
+}
+
+.score-green { border-color: #86efac; background: var(--success-bg); }
+.score-yellow { border-color: #fcd34d; background: var(--warning-bg); }
+.score-red { border-color: #fca5a5; background: var(--danger-bg); }
+
+.score-number {
+  font-size: 56px;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.score-green .score-number { color: var(--success-text); }
+.score-yellow .score-number { color: var(--warning-text); }
+.score-red .score-number { color: var(--danger-text); }
+
+.score-out {
+  font-size: 14px;
+  color: var(--text-tertiary);
+  font-weight: 500;
+}
+
+.advice-badge {
+  font-size: 15px !important;
+  padding: 8px 20px !important;
+  margin-bottom: 16px;
+}
+
+.verdict-text {
+  font-size: 18px;
+  color: var(--text-secondary);
+  max-width: 500px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.reasons-box {
+  background: var(--bg-subtle);
+  border-radius: var(--radius-lg);
+  padding: 24px;
+  margin-top: 24px;
+}
+
+.reasons-title {
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 16px;
+  font-size: 15px;
+}
+
+.reasons-list { list-style: none; display: flex; flex-direction: column; gap: 10px; }
+
+.reason-item {
+  display: flex;
+  gap: 10px;
+  font-size: 15px;
+  color: var(--text-secondary);
+  line-height: 1.5;
+}
+
+.reason-dot { color: var(--blue-500); font-weight: 700; flex-shrink: 0; }

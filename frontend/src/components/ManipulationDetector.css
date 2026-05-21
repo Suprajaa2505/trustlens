@@ -1,0 +1,77 @@
+.detect-section { margin-bottom: 8px; }
+
+.detect-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  margin-bottom: 16px;
+}
+
+.detect-icon { font-size: 28px; flex-shrink: 0; margin-top: 2px; }
+
+.detect-title {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 6px;
+}
+
+.score-bar-wrap { margin-bottom: 16px; }
+
+.score-bar-track {
+  height: 10px;
+  background: #e2e8f0;
+  border-radius: 99px;
+  overflow: hidden;
+  margin-bottom: 6px;
+}
+
+.score-bar-fill {
+  height: 100%;
+  border-radius: 99px;
+  transition: width 1s ease;
+}
+
+.score-bar-label {
+  font-size: 12px;
+  color: var(--text-tertiary);
+  font-weight: 500;
+}
+
+.detect-summary {
+  font-size: 15px;
+  color: var(--text-secondary);
+  line-height: 1.7;
+  background: var(--bg-subtle);
+  border-radius: var(--radius-md);
+  padding: 16px 18px;
+}
+
+.detect-divider {
+  height: 1px;
+  background: #e2e8f0;
+  margin: 24px 0;
+}
+.findings-list {
+  margin-top: 12px;
+  background: var(--danger-bg);
+  border: 1px solid var(--danger-border);
+  border-radius: var(--radius-md);
+  padding: 16px 18px;
+}
+
+.findings-title {
+  font-weight: 700;
+  color: var(--danger-text);
+  margin-bottom: 12px;
+  font-size: 14px;
+}
+
+.finding-item {
+  display: flex;
+  gap: 10px;
+  font-size: 14px;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  margin-bottom: 8px;
+}
