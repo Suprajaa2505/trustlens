@@ -20,18 +20,6 @@ Paste any URL → TrustLens scans it and gives you:
 
 ---
 
-## 📸 Screenshots
-
-### Trust Score
-![Trust Score](screenshots/reddit-trustscore.png)
-
-### Scan Engine — Tracker Detection
-![Scan Engine](screenshots/reddit-scanengine.png)
-
-### Manipulation Detector
-![Manipulation Detector](screenshots/reddit-manipulation.png)
-
----
 
 ## 🏗️ How It Works — 3 Pillars
 
