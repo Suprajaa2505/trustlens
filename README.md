@@ -23,13 +23,13 @@ Paste any URL → TrustLens scans it and gives you:
 ## 📸 Screenshots
 
 ### Trust Score
-![Trust Score](screenshots/bbc-trustscore.png)
+![Trust Score](screenshots/reddit-trustscore.png)
 
 ### Scan Engine — Tracker Detection
-![Scan Engine](screenshots/bbc-scanengine.png)
+![Scan Engine](screenshots/reddit-scanengine.png)
 
 ### Manipulation Detector
-![Manipulation Detector](screenshots/bbc-manipulation.png)
+![Manipulation Detector](screenshots/reddit-manipulation.png)
 
 ---
 
